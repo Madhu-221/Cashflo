@@ -20,6 +20,8 @@ Template Name: Home Template
 <link href="<?php echo get_stylesheet_directory_uri()?>/style.css" rel="stylesheet" />
 <link href="<?php echo get_stylesheet_directory_uri()?>/assets/fonts/stylesheet.css" rel="stylesheet" />
 <script src="<?php echo get_stylesheet_directory_uri()?>/assets/js/home.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 
 <?php echo get_header();?>
 <div style="width: 100%">
@@ -162,6 +164,7 @@ Template Name: Home Template
     </div>
     <div class="video_wrapper reveal">
       <img src="<?php echo get_stylesheet_directory_uri()?>/assets/images/video-image.png" />
+      <!-- <lottie-player src="<?php echo get_stylesheet_directory_uri()?>/assets/lottie/Cashflow-3.lottie"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player> -->
       <button class="play-button" id="tradeButton">
         <img src="<?php echo get_stylesheet_directory_uri()?>/assets/images/play-btn.png" />
       </button>
@@ -433,9 +436,9 @@ Template Name: Home Template
     </div>
   </div>
 </div>
-<div class="shortcode">
+<!-- <div class="shortcode">
   <?php echo do_shortcode("[astra_custom_layout id=249]")?>
-</div>
+</div> -->
 
 
 <div class="coral-wrapper reveal">
@@ -823,7 +826,8 @@ Template Name: Home Template
       </h2>
     </div>
     <div class="text-box animated-text">
-      <div class="inner-box">
+    <?php echo do_shortcode("[astra_custom_layout id=288]")?>
+      <!-- <div class="inner-box">
         <h2>15K Cr</h2>
         <p>Invoices Processed<br />Annually</p>
       </div>
@@ -838,7 +842,7 @@ Template Name: Home Template
       <div class="inner-box">
         <h2>100%</h2>
         <p>Customer retention<br />at 5 years</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>

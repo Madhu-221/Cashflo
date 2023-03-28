@@ -745,7 +745,7 @@ Template: astra
     margin: 0;
     font-weight: 500;
     color: #fff;
-    font-family: 'Archivo, sans-serif;';
+    line-height: 1.5;
   }
   .inner-box p, .inner-box .elementor-counter-title {
     font-weight: 500;
@@ -754,7 +754,6 @@ Template: astra
     letter-spacing: 0.01em;
     margin: 12px 0 0;
     color: var(--white) !important;
-    font-family: 'Archivo, sans-serif;';
   }
   .inner-box {
     color: var(--white);
@@ -1247,11 +1246,11 @@ Template: astra
     .product-box {
       margin: 0 auto 50px;
     }
-    .inner-box h2 {
+    .inner-box h2, .inner-box .elementor-counter-number-wrapper {
       font-size: 50px;
     }
   
-    .inner-box p {
+    .inner-box p, .inner-box .elementor-counter-title{
       font-size: 14px;
     }
   
@@ -1421,7 +1420,7 @@ Template: astra
       margin: 0 auto;
     }
   
-    .inner-box h2 {
+    .inner-box h2, .inner-box .elementor-counter-number-wrapper {
       font-size: 35px;
     }
   
@@ -1809,7 +1808,7 @@ Template: astra
       line-height: 1.3;
     }
   
-    .inner-box h2 {
+    .inner-box h2, .inner-box .elementor-counter-number-wrapper{
       font-size: 30px;
     }
   
@@ -1953,4 +1952,11 @@ Template: astra
       width: 280px;
     }
   }
-  
+  .astra-advanced-hook-249{
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+  }
+ #ast-scroll-top {
+    display: none !important;
+}
