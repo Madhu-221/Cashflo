@@ -1,6 +1,7 @@
 /* Adding greater z-index here because scroll-to-top icon goes beneath the Stick Add to cart. */
 #ast-scroll-top {
   z-index: 9999;
+  display: none;
 }
 
 .ast-sticky-add-to-cart {
